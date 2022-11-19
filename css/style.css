@@ -36,6 +36,8 @@ h2{
 	-webkit-text-fill-color: transparent;
 }
 
+
+
 .containt::before{
 	content: "";
 	position:absolute;

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Watermark</title>
+    <style>
+    /* (A) IMAGE WATERMARK */
+    .watermark img { width: 100%; }
+    .watermark { position: relative; }
+    .watermark::after {
+      content: "COPYRIGHT, YOU SHALL NOT STEAL!";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      opacity: 0.5;
+      font-size: 1.5em;
+      color: red;
+    }
+
+    /* (X) USE THIS IF YOU WANT AN IMAGE CAPTION *
+    .watermark::after {
+      content: "IMAGE CAPTION";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 10px;
+      color: white;
+      font-size: 1.5em;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    /* (X) DOES NOT MATTER */
+    * { font-family: arial, sans-serif; }
+    </style>
+  </head>
+  <body>
+    <!-- (B) WATERMARKED IMG -->
+    <div class="watermark">
+      <img src="dog.jpg"/>
+    </div>
+  </body>
+</html>
