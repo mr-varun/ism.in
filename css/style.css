@@ -16,14 +16,21 @@
 	height: 50px;
 	border: 0px white solid;
 	position: relative;
-
 }
 
 #ism:hover{
-    background-image: none;
     background-image: linear-gradient(orange,white,green);
     height: 65px;
-    padding: 20x;
+    padding: 30x;
+}
+
+#git{
+	padding: 7px 10px;
+	height: 80px;
+}
+
+#git:hover{
+	background-color: cornsilk;
 }
 
 h2{
