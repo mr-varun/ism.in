@@ -1,0 +1,25 @@
+.fc{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: ;
+}
+
+.fi{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.fi1{
+    min-height: 100px;
+}
+
+.fi2{
+    min-height: 200px;
+}
+
+.fi3{
+    min-height: 300px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author"	content="Rahul Hosakoti">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="../img/icon.png">
+	<link rel="stylesheet" type="text/css" href="../css/style-9.css">	
+	<title>Ninth Assignment</title>
+</head>
+<body>
+	<div id="main">
+		<div id="one">
+			<form action="">
+				<div id="colomn">
+					<div class="a">
+						<label for="name">Name:</label>
+						<input type="text" name="name" id="name">
+					</div><br>
+					<div class="a">
+						<label for="mobile">Phone:</label>
+						<input type="number" name="mobile" id="mobile">
+					</div><br>
+					<div class="a">
+						<label for="email">Email: </label>
+						<input type="email" name="email" id="email">
+					</div><br>
+					<div class="a"><label for="date">Pickup Date/Time:</label>
+						<input type="datetime-local" name="date" id="date">
+					</div><br>
+					<div class="a">
+						<label for="place">Pickup place:</label>
+						<select id="place">
+							<option value="select">----Select One----</option>
+							<option value="India">ISRO</option>
+							<option value="America">NASA</option>
+							<option value="China">Covid-19</option>
+						</select>
+					</div><br>
+					<div class="a">
+						<label for="dropplace">Dropoff Place:</label>
+						<input type="text" id="dropplace" list="place-2">
+							<datalist id="place-2">
+								<option value="Home">
+								<option value="Shop">
+								<option value="Town">
+							</datalist>
+					</div><br>
+					<input type="submit" name="submit" id="button" value="Submit Booking">
+				</div>
+			</form>
+		</div>
+		<div id="two">
+			<label for="vichile">Which taxi do you require?</label><br>
+				<input type="radio" name="car" id="car">
+					<label for="car">Car</label><br>
+				<input type="radio" name="Van" id="van">
+					<label for="van">Van</label><br>
+				<input type="radio" name="tuk" id="tuk">
+					<label for="tuk">Tuk Tuk</label><br><br>
+			<label for="extra">Extras</label><br>
+				<input type="checkbox" name="baby" id="baby">
+					<label for="baby">Baby Seat</label><br>
+				<input type="checkbox" name="wheel" id="wheel">
+					<label for="wheel">Wheelchair Access</label><br>
+				<input type="checkbox" name="tip" id="tip">
+					<label for="tip">Stock Tip</label>
+		</div>	
+	</div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: black;
+    font-size: 25px;
+    flex-direction: row;
+    margin: 25px 5%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    background: rgb(202, 204, 177);
+    padding: 10px 0px;
+    height: 13.5em;
+    width: 90px;
+}
+
+header{
+    background: lightgreen;
+    padding: 1em 0em;
+}
+
+.submain{
+    display: flex;
+    flex: ;
+}
+
+.left{
+    background: whitesmoke;
+    padding: 3em 8em 3em 0em;
+    flex: 5 5 100px;
+}
+
+.right{
+    background: rgb(233, 233, 188);
+    padding: 3em 1em 3em 0em;
+    flex: 1 1 100px;
+}
+
+footer{
+    background: lightgreen;
+    padding: 1em 0em;
+}

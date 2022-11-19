@@ -1,0 +1,25 @@
+.chessboard {
+    width: 800px;
+    min-width: 400px;
+    height: 800px;
+    min-height: 400px;
+    margin: 50px auto;
+    border: 15px solid #333;
+}
+
+.black,.white{
+    float: left;
+    width: 100px;
+    min-width: 50px;
+    height: 100px;
+    min-height: 50px;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+

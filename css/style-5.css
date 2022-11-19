@@ -1,0 +1,15 @@
+body{
+    display: flexbox;
+    min-width: 480px;
+    max-width: 600px;
+    height: 480px;
+    margin: 100px auto;
+}
+img{
+    border: 3px solid black;
+    width: 30%;
+    height: 30%;
+    padding: auto;
+    margin-left: 5px;
+    margin-top: 5px;
+}

@@ -1,0 +1,16 @@
+.main{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    width: fit-content;
+    margin: 5% auto;
+    background-color: whitesmoke;
+}
+
+.image{
+    margin: 10px;
+}
+
+img{
+    height: 160px;
+    width: 100%;
+}

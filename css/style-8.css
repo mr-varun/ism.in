@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    background-color: rgb(201, 192, 192);
+    height: fit-content;
+    width: 350px;
+    padding: 10px;
+    margin: 50px auto;
+}
+
+input{
+	width: 100%;
+    background-color: white;
+    border-color: #fff;
+}
+
+
+input#button{
+	width: fit-content;
+	position: relative;
+	left: 130px;
+	background-color: rgba(58, 57, 57, 0.671);
+    color: white;
+}
