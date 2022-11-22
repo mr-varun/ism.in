@@ -78,7 +78,7 @@ nav div a{
 }
 
 nav div a:hover{
-    font-size: 45px;
+    font-size: 40px;
     margin: 30px auto;
     background-image: linear-gradient(to right, yellow ,red);
 	background-repeat: no-repeat;
