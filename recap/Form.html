@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        fieldset{
+            margin: 10px auto;
+            max-width: fit-content;
+            border-radius: 5%;
+        }
+        .a{
+            display: flex;
+            justify-content: space-between;
+        }
+        #button{
+            background: orange;
+            position: relative;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Form</h2>
+        <fieldset>
+            <legend>Form</legend>
+            <form action="#" method="get">
+                <div class="a">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                </div><br>
+                <div class="a">
+                    <label for="mobile">Phone:</label>
+                    <input type="number" name="mobile" id="mobile">
+                </div><br>
+                <div class="a">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email">
+                </div><br>
+                <div class="a"><label for="date">Date/Time:</label>
+                    <input type="datetime-local" name="date" id="date">
+                </div><br>
+                <div class="a">
+
+                </div>
+                <div class="a">
+                    <label for="cource">Cource</label>
+                    <select id="cource">
+                        <option value="select">----Select One----</option>
+                        <option value="s">Science</option>
+                        <option value="c"">Commerce</option>
+                        <option value="a">Arts</option>
+                    </select>
+                </div><br>
+                <input type="submit" name="submit" id="button" value="Submit-Data">
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
