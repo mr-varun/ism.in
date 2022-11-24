@@ -9,7 +9,84 @@
 	<title>Bootstrap | Assignment-11</title>
 </head>
 <body>
-    
+	<div class="container m-5">
+		<h2 class="mb-4"><u>Bootstrap Navbar:</u></h2>
+		<hr>
+		<h4 class="text-center">Bootstrap Navbar</h4>
+		<hr>
+		<nav class="navbar navbar-expand-lg bg-success">
+			<div class="container-fluid">
+				<a class="navbar-brand text-white" href="#">
+					ISM UNIV
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-light" aria-current="page" href="#">Link</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-light disabled" aria-current="page" href="#">Disbled</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Dropdown
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Web</a></li>
+								<li><a class="dropdown-item" href="#">Python</a></li>
+								<li><a class="dropdown-item" href="#">IOT</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<form class="d-flex" role="search">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				</form>
+			</div>
+		</nav>
+		<nav class="navbar navbar-expand-lg mx-5">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					ISM UNIV
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="#">Link</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" aria-current="page" href="#">Disbled</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Dropdown
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Web</a></li>
+								<li><a class="dropdown-item" href="#">Python</a></li>
+								<li><a class="dropdown-item" href="#">IOT</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<form class="d-flex" role="search">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				</form>
+			</div>
+		</nav>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
