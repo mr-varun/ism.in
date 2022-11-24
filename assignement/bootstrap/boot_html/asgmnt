@@ -1,0 +1,20 @@
+<div class="container-fluid m-4">
+		<h2 class="mb-5"><u>Bootstrap Pagination:</u></h2>
+		<hr>
+		<h4 class="text-center">Bootstrap Pagination</h4>
+		<hr>
+		<div class="container m-3">
+			<h4>Basic Pagination</h4>
+			
+		</div>
+		<hr>
+		<div class="container m-3">
+			<h4>Disabled and active Pagination</h4>
+			
+		</div>
+		<hr>
+		<div class="container m-3">
+			<h4>Colered Progress Bars</h4>
+			
+		</div>
+	</div>
