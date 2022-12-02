@@ -1,0 +1,22 @@
+.containt div{
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.containt div img{
+    height: 50vh;
+}
+
+.containt div div div.i{
+	font-size: 2rem;
+}
+
+.containt div div{
+	text-align: justify;
+}
+
+.containt div div a{
+    text-decoration: none;
+    color: rgb(44, 43, 43);
+}

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+*{
+	font-family: 'Nerko One', cursive;
+}
+
+body{
+	width: 100vw;
+	/* min-width: 555px; */
+}
+
+div#all{
+	display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 10vw 90vw;
+    grid-template-rows: 10vh 75vh 15vh;
+    grid-template-areas: 
+    "headder headder"
+    "navbar containt" 
+    "foter foter";
+}
+
+.headder{
+	grid-area: headder;
+	background-color: rgb(221, 5, 5);
+	min-width: 555px;
+}
+
+.headder h1{
+	font-size: 50px;
+	color: white;
+}
+
+.navbar{
+	position: sticky;
+	top: 0vh;
+	padding: 0px;
+	grid-area: navbar;
+	background-image: linear-gradient( rgb(221, 5, 5),red);
+	border-right: 1px solid  rgb(221, 5, 5);
+}
+
+.navbar div a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+
+.navbar div div span{
+	color: white;
+	font-size: 25px;
+}
+
+.navbar div img{
+	position: relative;
+	top: -10px;
+	border-bottom-left-radius: 75%;
+	border-bottom-right-radius: 75%;
+}
+
+.containt{
+	grid-area: containt;
+}
+
+.card{
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                 inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    transition: .2s;
+}
+
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                inset -4px -4px 10px white;
+    transition: .2s;
+}
+
+.foter{
+	position: sticky;
+	top: 85vh;
+	grid-area: foter;
+	background-color: gray;
+}
+
+#carouselExampleControls{
+	height: 100px;
+}
+
+.foter div div
+{
+	position: relative;
+	list-style: none;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.foter div div.hover
+{
+	z-index: 10000;
+	transform: scale(0.75);
+}
+
+.foter div div a
+{
+	position: relative;
+	text-decoration: none;
+	color: var(--clr);
+	z-index: 10;
+	font-size: 3em;
+	transition: 0.5s;
+}
+
+.foter div div:hover a
+{
+	font-size: 4em;
+	filter: drop-shadow(0 0 20px var(--clr))
+	drop-shadow(0 0 40px var(--clr))
+	drop-shadow(0 0 60px var(--clr));
+}
+
+.foter div div img{
+    height: 13vh;
+    width: 100%;
+    border-top: 1vh solid grey;
+}
+
+#highlight{
+	color: chocolate;
+	font-size: 28px;
+	margin: 0px;
+	padding: 0px;
+}
