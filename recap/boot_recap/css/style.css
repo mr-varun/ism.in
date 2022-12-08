@@ -1,0 +1,48 @@
+body{
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 10vh auto 10vh;
+    grid-template-areas: 
+    "navbar"
+    "content"
+    "footer";
+}
+
+nav{
+    grid-area: navbar;
+    background-color: red;
+}
+
+div#containt{
+    background-color: aqua;
+}
+
+footer{
+    background-color: greenyellow;
+}
+
+div#containt section#images div div div img{
+    width: 100vw;
+    height: 100vh;
+}
+
+div#containt section#men div{
+    margin: 5px auto;
+}
+
+div#containt section#men h1{
+    color: chocolate;
+}
+
+div#containt section#women div{
+    margin: 5px auto;
+}
+
+div#containt section#kid div{
+    margin: 5px auto;
+}
+
+div.card img{
+    margin-top: 10px;
+    height: 60vh;
+}
